@@ -23,7 +23,7 @@ contour detection (OpenCV findContours):
 polygon approximation (OpenCV approxPolyDP):
 ![polylines](https://github.com/user-attachments/assets/0e11c278-3874-4f7e-8c54-397ece75e07b)
 
-get the longest edges which surrounds the conveyor to enable perspective transformation:
+get the longest edges whose slope > 1 and surrounding the conveyor to enable perspective transformation:
 ![correctboundary](https://github.com/user-attachments/assets/bf2f7e9b-1518-4b6e-8678-35a58a38d4e9)
 
 ## Apply transformation
