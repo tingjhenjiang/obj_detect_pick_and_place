@@ -23,10 +23,12 @@ contour detection (OpenCV findContours):
 polygon approximation (OpenCV approxPolyDP):
 ![polylines](https://github.com/user-attachments/assets/0e11c278-3874-4f7e-8c54-397ece75e07b)
 
-get the longest edges whose slope > 1 and surrounding the conveyor to enable perspective transformation:
+get the longest edges of the conveyor whose abs(slope) > 1 to enable perspective transformation:
 ![correctboundary](https://github.com/user-attachments/assets/bf2f7e9b-1518-4b6e-8678-35a58a38d4e9)
 
 ## Apply transformation
 
 apply perspective transformation (OpenCV getPerspectiveTransform warpPerspective):
 ![perspectiveTransformation](https://github.com/user-attachments/assets/498c69eb-6e3d-44fd-8242-bdea85b1bb50)
+
+the building block right under the nozzle has now shared the same the centroid with the nozzle!
